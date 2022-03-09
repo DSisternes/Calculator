@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         when(operatorToUse) {
             '+' -> { return "${firstValue + (firstValue*binding.editTextCalculations.text.toString().toDouble()/100)}"}
             '-' -> { return "${firstValue - (firstValue*binding.editTextCalculations.text.toString().toDouble()/100)}"}
-            '0' -> { return "${binding.editTextCalculations.text.toString().toDouble()/100)}"}
+            '0' -> { return "${binding.editTextCalculations.text.toString().toDouble()/100}"}
             else -> {return "ERROR"}
         }
     }
